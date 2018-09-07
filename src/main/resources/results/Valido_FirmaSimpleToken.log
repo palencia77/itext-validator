@@ -1,0 +1,19 @@
+2018-09-07 15:20:56.102  INFO 25936 --- [           main] c.p.itextvalidator.ItextValidatorTests   : Started ItextValidatorTests in 1.709 seconds (JVM running for 3.381)
+2018-09-07 15:20:56.512  INFO 25936 --- [           main] c.p.itextvalidator.ItextValidator        : ###########################################################################################
+2018-09-07 15:20:56.513  INFO 25936 --- [           main] c.p.itextvalidator.ItextValidator        : pdf info: {CreationDate=D:20180906165113-03'00', Producer=Adobe LiveCycle PDF Generator ES3; modified using iText® 5.5.4 ©2000-2014 iText Group NV (AGPL-version), Title=D:\livecycle\tmp\pdfg-HMLGDEMSAPPT01_\02\b75b-09b7ce-75c2f2-cfc0c2-abbc5d-0f5ae5\File.html, ModDate=D:20180906165535-03'00'}
+2018-09-07 15:20:56.544  INFO 25936 --- [           main] c.p.itextvalidator.ItextValidator        : total revisions: 2
+2018-09-07 15:20:56.544  INFO 25936 --- [           main] c.p.itextvalidator.ItextValidator        : blank signatures names: []
+2018-09-07 15:20:56.544  INFO 25936 --- [           main] c.p.itextvalidator.ItextValidator        : ****************************
+2018-09-07 15:20:56.544  INFO 25936 --- [           main] c.p.itextvalidator.ItextValidator        : signature: signature_0
+2018-09-07 15:20:56.544  INFO 25936 --- [           main] c.p.itextvalidator.ItextValidator        : signature revision: 1
+2018-09-07 15:20:56.551  INFO 25936 --- [           main] c.p.itextvalidator.ItextValidator        : revisionCoverWholeDoc: true
+2018-09-07 15:20:56.552  INFO 25936 --- [           main] c.p.itextvalidator.ItextValidator        : coverWholeFinalDoc: false
+2018-09-07 15:20:56.881  INFO 25936 --- [           main] c.p.itextvalidator.ItextValidator        : isValidSignature: true
+2018-09-07 15:20:56.882  INFO 25936 --- [           main] c.p.itextvalidator.ItextValidator        : ****************************
+2018-09-07 15:20:56.882  INFO 25936 --- [           main] c.p.itextvalidator.ItextValidator        : signature: signature_cierre
+2018-09-07 15:20:56.882  INFO 25936 --- [           main] c.p.itextvalidator.ItextValidator        : signature revision: 2
+2018-09-07 15:20:56.882  INFO 25936 --- [           main] c.p.itextvalidator.ItextValidator        : coverWholeFinalDoc: true
+2018-09-07 15:20:56.890  INFO 25936 --- [           main] c.p.itextvalidator.ItextValidator        : isValidSignature: true
+2018-09-07 15:20:56.890  INFO 25936 --- [           main] c.p.itextvalidator.ItextValidator        : ----------------------
+2018-09-07 15:20:56.890  INFO 25936 --- [           main] c.p.itextvalidator.ItextValidator        : isDocValid: true
+2018-09-07 15:20:56.890  INFO 25936 --- [           main] c.p.itextvalidator.ItextValidator        : ----------------------

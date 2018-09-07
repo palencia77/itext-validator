@@ -1,0 +1,13 @@
+2018-09-07 15:22:20.476  INFO 22856 --- [           main] c.p.itextvalidator.ItextValidator        : ###########################################################################################
+2018-09-07 15:22:20.476  INFO 22856 --- [           main] c.p.itextvalidator.ItextValidator        : pdf info: {CreationDate=D:20180725160235-03'00', Producer=Adobe LiveCycle PDF Generator ES3; modified using iText® 5.5.4 ©2000-2014 iText Group NV (AGPL-version), Title=D:\livecycle\tmp\pdfg-HMLGDEMSAPPT01_\d9\21a7-89ec2d-be4bb2-f4349f-ed1112-138148\File.html, ModDate=D:20180731121630-03'00'}
+2018-09-07 15:22:20.501  INFO 22856 --- [           main] c.p.itextvalidator.ItextValidator        : total revisions: 2
+2018-09-07 15:22:20.501  INFO 22856 --- [           main] c.p.itextvalidator.ItextValidator        : blank signatures names: [signature_1, signature_cierre]
+2018-09-07 15:22:20.502  INFO 22856 --- [           main] c.p.itextvalidator.ItextValidator        : ****************************
+2018-09-07 15:22:20.502  INFO 22856 --- [           main] c.p.itextvalidator.ItextValidator        : signature: signature_0
+2018-09-07 15:22:20.502  INFO 22856 --- [           main] c.p.itextvalidator.ItextValidator        : signature revision: 1
+2018-09-07 15:22:20.511  INFO 22856 --- [           main] c.p.itextvalidator.ItextValidator        : revisionCoverWholeDoc: true
+2018-09-07 15:22:20.511  INFO 22856 --- [           main] c.p.itextvalidator.ItextValidator        : coverWholeFinalDoc: false
+2018-09-07 15:22:20.949  INFO 22856 --- [           main] c.p.itextvalidator.ItextValidator        : isValidSignature: true
+2018-09-07 15:22:20.949  INFO 22856 --- [           main] c.p.itextvalidator.ItextValidator        : ----------------------
+2018-09-07 15:22:20.949  INFO 22856 --- [           main] c.p.itextvalidator.ItextValidator        : isDocValid: false
+2018-09-07 15:22:20.949  INFO 22856 --- [           main] c.p.itextvalidator.ItextValidator        : ----------------------

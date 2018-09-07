@@ -11,18 +11,19 @@ import java.io.IOException;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class ItextValidatorTests {
-    private static final String SRC_PATH = "/home/palencia77/dev/itext-validator/src/main/resources/pdf/";
+    private static final String SRC_PATH = "C:\\GDEGIT\\itext-validator\\src\\main\\resources\\pdf\\";
 
     @Test
     public void invalidPdfSignatures() {
-        assert (!validateTest("DocumentoInvalidoPorCambiosPostFirma.pdf"));
-        assert (!validateTest("FirmaInvalidaErrorEnProceso.pdf"));
+        //assert (!validateTest("Invalido_CambiosPostFirma.pdf"));
+        assert (!validateTest("Invalido_ErrorEnProceso.pdf"));
     }
 
     @Test
     public void validPdfSignatures() {
-        //assert (validateTest("TOKEN_OK_IF-2018-01292432-APN-TESTSADE.PDF"));
-        assert (validateTest("PAL8_2_Conjunta_NumEsp_OK.pdf"));
+        assert (validateTest("Valido_FirmaSimpleToken.PDF"));
+        //assert (validateTest("Valido_FirmaConjuntaToken.pdf"));
+        //assert (validateTest("Valido_FirmaSimpleCertificado.pdf"));
     }
 
     private boolean validateTest(String fileName) {

@@ -1,0 +1,31 @@
+2018-09-07 15:19:31.427  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidatorTests   : Started ItextValidatorTests in 1.56 seconds (JVM running for 2.962)
+2018-09-07 15:19:31.727  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : ###########################################################################################
+2018-09-07 15:19:31.728  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : pdf info: {CreationDate=D:20180907102857-03'00', Producer=Adobe LiveCycle PDF Generator ES3; modified using iTextSharp™ 5.5.12 ©2000-2017 iText Group NV (AGPL-version), Title=D:\livecycle\tmp\pdfg-HMLGDEMSAPPT01_\aa\3257-2b2938-0ce1be-b1eb88-029e07-bd40f4\File.html, ModDate=D:20180907103526-03'00'}
+2018-09-07 15:19:31.750  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : total revisions: 4
+2018-09-07 15:19:31.750  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : blank signatures names: []
+2018-09-07 15:19:31.750  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : ****************************
+2018-09-07 15:19:31.750  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : signature: signature_0
+2018-09-07 15:19:31.750  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : signature revision: 1
+2018-09-07 15:19:31.758  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : revisionCoverWholeDoc: true
+2018-09-07 15:19:31.758  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : coverWholeFinalDoc: false
+2018-09-07 15:19:32.104  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : isValidSignature: true
+2018-09-07 15:19:32.104  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : ****************************
+2018-09-07 15:19:32.104  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : signature: signature_1
+2018-09-07 15:19:32.104  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : signature revision: 2
+2018-09-07 15:19:32.108  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : revisionCoverWholeDoc: true
+2018-09-07 15:19:32.108  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : coverWholeFinalDoc: false
+2018-09-07 15:19:32.119  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : isValidSignature: true
+2018-09-07 15:19:32.119  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : ****************************
+2018-09-07 15:19:32.119  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : signature: signature_2
+2018-09-07 15:19:32.119  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : signature revision: 3
+2018-09-07 15:19:32.125  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : revisionCoverWholeDoc: true
+2018-09-07 15:19:32.125  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : coverWholeFinalDoc: false
+2018-09-07 15:19:32.133  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : isValidSignature: true
+2018-09-07 15:19:32.133  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : ****************************
+2018-09-07 15:19:32.133  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : signature: signature_cierre
+2018-09-07 15:19:32.133  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : signature revision: 4
+2018-09-07 15:19:32.133  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : coverWholeFinalDoc: true
+2018-09-07 15:19:32.140  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : isValidSignature: true
+2018-09-07 15:19:32.140  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : ----------------------
+2018-09-07 15:19:32.140  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : isDocValid: true
+2018-09-07 15:19:32.140  INFO 12464 --- [           main] c.p.itextvalidator.ItextValidator        : ----------------------
