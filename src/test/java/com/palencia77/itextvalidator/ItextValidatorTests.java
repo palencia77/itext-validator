@@ -21,7 +21,8 @@ public class ItextValidatorTests {
 
     @Test
     public void validPdfSignatures() {
-        assert (validateTest("TOKEN_OK_IF-2018-01292432-APN-TESTSADE.PDF"));
+        //assert (validateTest("TOKEN_OK_IF-2018-01292432-APN-TESTSADE.PDF"));
+        assert (validateTest("PAL8_2_Conjunta_NumEsp_OK.pdf"));
     }
 
     private boolean validateTest(String fileName) {
