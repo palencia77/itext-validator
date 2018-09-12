@@ -5,8 +5,11 @@ import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import javax.imageio.stream.FileImageInputStream;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.nio.file.Files;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -30,10 +33,17 @@ public class ItextValidatorTests {
         ItextValidator itextValidator = new ItextValidator();
         boolean result = false;
         try {
-            result = itextValidator.validateSignatures(new FileInputStream(SRC_PATH.concat(fileName)));
+            //Thread.sleep(8000);
+            //byte[] bytes = Files.readAllBytes(new java.io.File("C:\\POC\\PDFs\\MESYA_ADIFSE.pdf").toPath());
+            //System.out.println("bytes.length = " + bytes.length);
+            //result = itextValidator.validateSignatures(new FileInputStream("C:\\POC\\PDFs\\MESYA_ADIFSE.pdf"));
+            //result = itextValidator.validateSignatures(new FileInputStream(SRC_PATH.concat(fileName)));
+            result = itextValidator.validateSignatures(new File("C:\\POC\\PDFs\\Valid_750_FirmaSimpleImportado.pdf"));
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        } /*catch (InterruptedException e) {
+            e.printStackTrace();
+        }*/
         return result;
     }
 }
