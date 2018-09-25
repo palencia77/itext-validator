@@ -82,7 +82,7 @@ public class ItextValidator {
                     logger.info("signature revision: " + acroFields.getRevision(signature));
 
                     // Validating revision signature
-                    if (acroFields.getRevision(signature) < acroFields.getTotalRevisions()) {
+                    /*if (acroFields.getRevision(signature) < acroFields.getTotalRevisions()) {
                         InputStream pdfRevision = acroFields.extractRevision(signature);
 
 
@@ -106,7 +106,7 @@ public class ItextValidator {
                             logger.error("error al elimianr el archivo temporal: " + tmp.getAbsolutePath());
                             tmp.deleteOnExit();
                         }
-                    }
+                    }*/
 
                     boolean coverWholeFinalDoc = acroFields.signatureCoversWholeDocument(signature);
                     logger.info("coverWholeFinalDoc: " + coverWholeFinalDoc);

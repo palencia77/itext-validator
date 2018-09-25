@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.file.Files;
+import java.util.Date;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -18,15 +19,19 @@ public class ItextValidatorTests {
 
     @Test
     public void invalidPdfSignatures() {
+        Date inicio = new Date();
         //assert (!validateTest("Invalido_CambiosPostFirma.pdf"));
         assert (!validateTest("Invalido_ErrorEnProceso.pdf"));
+        System.out.println("Duracion = " + ((new Date().getTime()-inicio.getTime())) + "ms");
     }
 
     @Test
     public void validPdfSignatures() {
-        assert (validateTest("Valido_FirmaSimpleToken.PDF"));
-        //assert (validateTest("Valido_FirmaConjuntaToken.pdf"));
+        Date inicio = new Date();
+        //assert (validateTest("Valido_FirmaSimpleToken.PDF"));
+        assert (validateTest("Valido_FirmaConjuntaToken.pdf"));
         //assert (validateTest("Valido_FirmaSimpleCertificado.pdf"));
+        System.out.println("Duracion = " + ((new Date().getTime()-inicio.getTime())) + "ms");
     }
 
     private boolean validateTest(String fileName) {
@@ -39,6 +44,7 @@ public class ItextValidatorTests {
             //result = itextValidator.validateSignatures(new FileInputStream("C:\\POC\\PDFs\\MESYA_ADIFSE.pdf"));
             //result = itextValidator.validateSignatures(new FileInputStream(SRC_PATH.concat(fileName)));
             result = itextValidator.validateSignatures(new File("C:\\POC\\PDFs\\Valid_750_FirmaSimpleImportado.pdf"));
+            //result = itextValidator.validateSignatures(new File(SRC_PATH.concat(fileName)));
         } catch (IOException e) {
             e.printStackTrace();
         } /*catch (InterruptedException e) {
